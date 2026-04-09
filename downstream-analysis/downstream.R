@@ -22,7 +22,7 @@ df <- readr::read_tsv("upstream/annotation/diamond.tax.tsv",
 
 # Renomear colunas
 colnames(df) <- c("contig","accession","pident","aln_len",
-                  "evalue","bitscore","taxid","organism","title")
+                  "evalue","bitscore","taxid","organism")
 
 # Prévia dos dados
 cat("\n📋 Prévia dos dados:\n")
