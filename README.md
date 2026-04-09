@@ -1,6 +1,6 @@
 # 📘  Atividade – Mapeamento e Montagem de Genoma
 **Escolha seu idioma:**  
-[Português](#atividade--mapeamento-e-montagem-de-genoma) | [English](#activity--genome-mapping-and-assembly)
+[Português](https://github.com/gavuolo/BioinfoPUC-mapeamento-genoma) | [English](https://github.com/gavuolo/BioinfoPUC-mapeamento-genoma/blob/main/README_en.md)
 
 Projeto desenvolvido no curso de Bioinformática da PUC Minas, como parte da disciplina **Algoritmos em Bioinformática**.
 
