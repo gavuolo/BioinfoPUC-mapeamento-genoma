@@ -21,21 +21,6 @@ The input files are available in the *reads/* folder:
 - **Expected results**: identification of organisms present in the sample, assembly metrics, abundance graphs and tables.  
 - **Reproducibility**: YAML environments ensure that anyone can recreate the same setup.  
 
-## Run from the Beginning
-The results are already included in this repository, but it is possible to rerun the entire pipeline from scratch.  
-To do so, clean the previous outputs and follow the steps below:
-
-```bash
-rm -rf upstream/fastqc/ \
-       upstream/fastqc_post/ \
-       upstream/trimming/ \
-       upstream/megahit_out/ \
-       upstream/multiqc_report/ \
-       upstream/mapping/ \
-       upstream/annotation/ \
-       upstream/assembly_stats.txt \
-       downstream-analysis/figures/
-```
 ## 1. Create micromamba environments
 The project uses two environments managed with **micromamba**:
 
