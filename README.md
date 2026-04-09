@@ -21,21 +21,6 @@ Os arquivos de entrada estão disponíveis na pasta **reads/**:
 - **Resultados esperados**: identificação dos organismos presentes na amostra, métricas de montagem, gráficos e tabelas de abundância.
 - **Reprodutibilidade**: ambientes YAML garantem que qualquer pessoa consiga recriar o mesmo setup.
 
-## Executar do início
-Os resultados já estão incluídos neste repositório, mas é possível refazer todo o pipeline desde o começo.  
-Para isso, basta limpar as saídas anteriores e seguir os passos abaixo:
-```bash
-rm -rf upstream/fastqc/ \
-       upstream/fastqc_post/ \
-       upstream/trimming/ \
-       upstream/megahit_out/ \
-       upstream/multiqc_report/ \
-       upstream/mapping/ \
-       upstream/annotation/ \
-       upstream/assembly_stats.txt \
-       downstream-analysis/figures/
-```
-
 ## 1. Criar os ambientes micromamba
 O projeto utiliza dois ambientes gerenciados com **micromamba**:
 Ambiente principal de montagem e processamento
